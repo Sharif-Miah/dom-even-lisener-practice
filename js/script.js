@@ -30,3 +30,13 @@ const makePink = document.getElementById('make-pink');
 makePink.addEventListener('click', function makepinkColor() {
     document.body.style.backgroundColor = 'pink'
 })
+
+// Another Option
+
+const makeGreen = document.getElementById('make-green');
+
+makeGreen.addEventListener('click', makeGreenColor);
+
+function makeGreenColor() {
+    document.body.style.backgroundColor = 'green'
+}
